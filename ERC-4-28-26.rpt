@@ -1,0 +1,247 @@
+ERC report (2026-04-28T19:03:03, Encoding UTF8)
+Report includes: Errors
+
+***** Sheet /
+
+***** Sheet /Power_Supply/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(1150 mils, 1100 mils): Symbol #PWR02 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(1250 mils, 1000 mils): Symbol #PWR01 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5500 mils, 1000 mils): Symbol U2 Pin 2 [VIN, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(4800 mils, 3100 mils): Symbol U1 Pin 3 [VI, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5100 mils, 3400 mils): Symbol U1 Pin 1 [GND, Power input, Line]
+
+***** Sheet /MCU_STM32/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 1900 mils): Symbol U3 Pin 28 [VREF+, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(4950 mils, 1900 mils): Symbol U3 Pin 28 [VREF+, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 2100 mils): Symbol U3 Pin 7 [PG10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 2300 mils): Symbol U3 Pin 5 [PF0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 2400 mils): Symbol U3 Pin 6 [PF1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 2600 mils): Symbol U3 Pin 55 [PD2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5450 mils, 1600 mils): Symbol U3 Pin 1 [VBAT, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5450 mils, 1600 mils): Symbol U3 Pin 1 [VBAT, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 2800 mils): Symbol U3 Pin 8 [PC0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 2900 mils): Symbol U3 Pin 9 [PC1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5550 mils, 1600 mils): Symbol U3 Pin 16 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5550 mils, 1600 mils): Symbol U3 Pin 16 [VDD, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 3000 mils): Symbol U3 Pin 10 [PC2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 3100 mils): Symbol U3 Pin 11 [PC3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5650 mils, 1600 mils): Symbol U3 Pin 32 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5650 mils, 1600 mils): Symbol U3 Pin 32 [VDD, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 3200 mils): Symbol U3 Pin 22 [PC4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 3300 mils): Symbol U3 Pin 23 [PC5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5750 mils, 1600 mils): Symbol U3 Pin 48 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5750 mils, 1600 mils): Symbol U3 Pin 48 [VDD, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 3400 mils): Symbol U3 Pin 38 [PC6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 3500 mils): Symbol U3 Pin 39 [PC7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5850 mils, 1600 mils): Symbol U3 Pin 64 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5850 mils, 1600 mils): Symbol U3 Pin 64 [VDD, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 3600 mils): Symbol U3 Pin 40 [PC8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5950 mils, 1600 mils): Symbol U3 Pin 29 [VDDA, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5950 mils, 1600 mils): Symbol U3 Pin 29 [VDDA, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 3700 mils): Symbol U3 Pin 41 [PC9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 3800 mils): Symbol U3 Pin 52 [PC10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 3900 mils): Symbol U3 Pin 53 [PC11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 4000 mils): Symbol U3 Pin 54 [PC12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 4100 mils): Symbol U3 Pin 2 [PC13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 4200 mils): Symbol U3 Pin 3 [PC14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(4950 mils, 4300 mils): Symbol U3 Pin 4 [PC15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 1900 mils): Symbol U3 Pin 12 [PA0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 2000 mils): Symbol U3 Pin 13 [PA1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 2100 mils): Symbol U3 Pin 14 [PA2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 2200 mils): Symbol U3 Pin 17 [PA3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 2300 mils): Symbol U3 Pin 18 [PA4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 2400 mils): Symbol U3 Pin 19 [PA5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 2500 mils): Symbol U3 Pin 20 [PA6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 2600 mils): Symbol U3 Pin 21 [PA7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 2700 mils): Symbol U3 Pin 42 [PA8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 2800 mils): Symbol U3 Pin 43 [PA9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 2900 mils): Symbol U3 Pin 44 [PA10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 3000 mils): Symbol U3 Pin 45 [PA11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 3100 mils): Symbol U3 Pin 46 [PA12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 3200 mils): Symbol U3 Pin 49 [PA13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 3300 mils): Symbol U3 Pin 50 [PA14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 3400 mils): Symbol U3 Pin 51 [PA15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 3600 mils): Symbol U3 Pin 24 [PB0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 3700 mils): Symbol U3 Pin 25 [PB1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 3800 mils): Symbol U3 Pin 26 [PB2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 3900 mils): Symbol U3 Pin 56 [PB3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 4000 mils): Symbol U3 Pin 57 [PB4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 4100 mils): Symbol U3 Pin 58 [PB5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 4200 mils): Symbol U3 Pin 59 [PB6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 4300 mils): Symbol U3 Pin 60 [PB7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 4400 mils): Symbol U3 Pin 61 [PB8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 4500 mils): Symbol U3 Pin 62 [PB9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5650 mils, 5400 mils): Symbol U3 Pin 15 [VSS, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5650 mils, 5400 mils): Symbol U3 Pin 15 [VSS, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 4600 mils): Symbol U3 Pin 30 [PB10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5750 mils, 5400 mils): Symbol U3 Pin 27 [VSSA, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5750 mils, 5400 mils): Symbol U3 Pin 27 [VSSA, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 4700 mils): Symbol U3 Pin 33 [PB11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 4800 mils): Symbol U3 Pin 34 [PB12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 4900 mils): Symbol U3 Pin 35 [PB13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 5000 mils): Symbol U3 Pin 36 [PB14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6350 mils, 5100 mils): Symbol U3 Pin 37 [PB15, Bidirectional, Line]
+
+***** Sheet /TMC5160_Driver/
+
+***** Sheet /CAN_Interface/
+
+***** Sheet /Encoder_Interface/
+
+ ** ERC messages: 75  Errors 75  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
