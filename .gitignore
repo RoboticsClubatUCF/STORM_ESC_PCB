@@ -1,1 +1,49 @@
+# ---- KiCad ----
+# Backup / autosave
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+_autosave-*
+*.000
+*.sch-bak
+fp-info-cache
 .history/
+
+# Lock files (open project)
+*.lck
+~*.lck
+
+# Netlist / cache
+*.net
+*-cache.lib
+
+# Exported / generated output (regenerate from source)
+# Comment these out if you WANT to commit fab outputs.
+/gerbers/
+/production/
+/fabrication/
+*.zip
+*.gbr
+*.gbl
+*.gbo
+*.gbp
+*.gbs
+*.gtl
+*.gto
+*.gtp
+*.gts
+*.drl
+*.pos
+*.rpt
+*.d356
+
+# SPICE
+*.raw
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+*.swp
+*~
