@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "c4d85d75-06a1-467e-8950-be74a30c41e5")
 	(paper "A4")
+	(title_block
+		(title "MCU_STM32")
+		(date "2026-07-08")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
@@ -4766,7 +4771,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"NRST\""
 			(at 203.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6073,7 +6078,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
 			(at 78.74 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6627,7 +6632,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
 			(at 151.13 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7024,7 +7029,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
 			(at 106.68 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7496,7 +7501,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"NRST\""
 			(at 111.76 64.77 0)
 			(hide yes)
 			(show_name no)
