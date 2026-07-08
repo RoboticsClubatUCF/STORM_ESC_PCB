@@ -3732,7 +3732,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 87.63) (xy 220.98 87.63)
+			(xy 161.29 87.63) (xy 222.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6657,7 +6657,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 220.98 87.63 0)
+		(at 222.25 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6668,7 +6668,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1f1f6a4-7d71-47bb-b5aa-ea2cac736a82")
 		(property "Reference" "#PWR047"
-			(at 220.98 91.44 0)
+			(at 222.25 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6679,7 +6679,7 @@
 			)
 		)
 		(property "Value" "FDCAN1_RX"
-			(at 220.98 82.55 0)
+			(at 222.25 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6689,7 +6689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 87.63 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6700,7 +6700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 87.63 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6711,7 +6711,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"FDCAN1_RX\""
-			(at 220.98 87.63 0)
+			(at 222.25 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
