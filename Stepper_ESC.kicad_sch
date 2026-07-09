@@ -21,7 +21,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "156f6e66-e0ae-4310-9356-95b5ea82e070")
-		(property "Sheetname" "Encoder_Interface"
+		(property "Sheetname" "AS5047P"
 			(at 91.44 71.6784 0)
 			(show_name yes)
 			(do_not_autoplace no)

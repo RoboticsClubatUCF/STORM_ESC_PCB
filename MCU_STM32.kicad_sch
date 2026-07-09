@@ -3452,6 +3452,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 105.41) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f73c31-50aa-4c56-96ba-08f04f3b0294")
+	)
+	(wire
+		(pts
 			(xy 83.82 41.91) (xy 95.25 41.91)
 		)
 		(stroke
@@ -3469,6 +3479,16 @@
 			(type default)
 		)
 		(uuid "16939ba4-9045-4633-8966-dff376f1e8ce")
+	)
+	(wire
+		(pts
+			(xy 120.65 107.95) (xy 125.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18008468-4f44-4fe5-903c-b846fe5ff7a6")
 	)
 	(wire
 		(pts
@@ -3729,6 +3749,16 @@
 			(type default)
 		)
 		(uuid "698de6d9-4e60-4e64-8a39-c32038ff996f")
+	)
+	(wire
+		(pts
+			(xy 120.65 113.03) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f43c91b-03d8-4945-9c0a-a7958a6b1f8d")
 	)
 	(wire
 		(pts
@@ -4199,6 +4229,16 @@
 			(type default)
 		)
 		(uuid "fa9cc291-ed39-4424-8f7e-19aaed8424f6")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa943ba-4e24-4150-8488-a1d75bf4bae8")
 	)
 	(label "+3.3V"
 		(at 12.7 50.8 0)
@@ -6025,6 +6065,85 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 120.65 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cb56f42-e349-4b8a-804c-cf8b2cf796ef")
+		(property "Reference" "#PWR058"
+			(at 124.46 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPI3_SCK"
+			(at 116.84 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"SPI3_SCK\""
+			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eed25659-ffa8-43b8-a4e7-b9fd5cfac403")
+		)
+		(instances
+			(project "Stepper_ESC"
+				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/b19c42ad-1e0e-490e-95d5-f79358467d1c"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 78.74 29.21 180)
 		(unit 1)
 		(body_style 1)
@@ -6332,6 +6451,85 @@
 			(project "Stepper_ESC"
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/b19c42ad-1e0e-490e-95d5-f79358467d1c"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 120.65 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99236f59-cd06-4e96-95e6-c14636da26be")
+		(property "Reference" "#PWR061"
+			(at 124.46 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PC9"
+			(at 116.84 105.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"PC9\""
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a61cc0d4-233d-4617-85db-76d2ded73171")
+		)
+		(instances
+			(project "Stepper_ESC"
+				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/b19c42ad-1e0e-490e-95d5-f79358467d1c"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7134,6 +7332,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 120.65 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce650f08-2e31-4b82-8acc-fb7600e572bf")
+		(property "Reference" "#PWR059"
+			(at 124.46 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPI3_MISO"
+			(at 116.84 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"SPI3_MISO\""
+			(at 120.65 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5722e45c-7359-4670-8b00-6190ed11daba")
+		)
+		(instances
+			(project "Stepper_ESC"
+				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/b19c42ad-1e0e-490e-95d5-f79358467d1c"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 107.95 55.88 0)
 		(unit 1)
@@ -7673,6 +7950,85 @@
 			(project "Stepper_ESC"
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/b19c42ad-1e0e-490e-95d5-f79358467d1c"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 120.65 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "effa7ab5-050d-4693-82ab-eb05d8de6350")
+		(property "Reference" "#PWR060"
+			(at 124.46 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPI3_MOSI"
+			(at 116.84 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"SPI3_MOSI\""
+			(at 120.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b88dc5f-5d93-4429-918b-8ef412d2d024")
+		)
+		(instances
+			(project "Stepper_ESC"
+				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/b19c42ad-1e0e-490e-95d5-f79358467d1c"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)

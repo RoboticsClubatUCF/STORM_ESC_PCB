@@ -723,7 +723,7 @@
         "uuid": "9271e9dc-3850-4149-b59f-a263c29a5edc"
       }
     ],
-    "used_designators": "#PWR46-55,U4",
+    "used_designators": "#PWR42-62,U4-5,C25",
     "variants": []
   },
   "sheets": [
@@ -749,7 +749,7 @@
     ],
     [
       "156f6e66-e0ae-4310-9356-95b5ea82e070",
-      "Encoder_Interface"
+      "AS5047P"
     ]
   ],
   "text_variables": {},
