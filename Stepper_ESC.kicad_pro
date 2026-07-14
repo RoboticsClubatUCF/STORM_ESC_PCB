@@ -625,60 +625,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PACKAGE",
-          "name": "PACKAGE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PRICE",
-          "name": "PRICE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "AVAILABILITY",
-          "name": "AVAILABILITY",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -723,7 +675,7 @@
         "uuid": "9271e9dc-3850-4149-b59f-a263c29a5edc"
       }
     ],
-    "used_designators": "#PWR42-62,U4-5,C25",
+    "used_designators": "D3-4,#PWR46-76,U4-5,C25-30,R7-11",
     "variants": []
   },
   "sheets": [
@@ -749,7 +701,7 @@
     ],
     [
       "156f6e66-e0ae-4310-9356-95b5ea82e070",
-      "AS5047P"
+      "Encoder_Interface"
     ]
   ],
   "text_variables": {},
