@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 49.53)
+		(at 91.44 39.37)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "358646e9-db5d-47e8-9397-c0d3a98e1ef4")
 		(property "Sheetname" "TMC5160_Driver"
-			(at 91.44 48.8184 0)
+			(at 91.44 38.6584 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "TMC5160_Driver.kicad_sch"
-			(at 91.44 53.9246 0)
+			(at 91.44 43.7646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,8 +144,54 @@
 		)
 	)
 	(sheet
-		(at 91.44 38.1)
+		(at 125.73 48.26)
 		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "91e7e603-b199-4555-814c-6b5be6ff276f")
+		(property "Sheetname" "TMC5160_Driver1"
+			(at 125.73 47.5484 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TMC5160_Driver.kicad_sch"
+			(at 125.73 52.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stepper_ESC"
+				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 31.75)
+		(size 34.29 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -160,7 +206,7 @@
 		)
 		(uuid "b19c42ad-1e0e-490e-95d5-f79358467d1c")
 		(property "Sheetname" "MCU_STM32"
-			(at 91.44 37.3884 0)
+			(at 21.59 31.0384 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_STM32.kicad_sch"
-			(at 91.44 42.4946 0)
+			(at 21.59 62.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -179,6 +225,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PC9" bidirectional
+			(at 55.88 33.02 0)
+			(uuid "6cd84119-7b0c-4b26-9c02-915be12427c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI3_MISO" bidirectional
+			(at 55.88 43.18 0)
+			(uuid "429b969e-e65b-41ce-b484-cc3e19cef3cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI3_MOSI" bidirectional
+			(at 55.88 40.64 0)
+			(uuid "4f80557c-9459-4010-8714-8122720f8d29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI3_SCK" bidirectional
+			(at 55.88 38.1 0)
+			(uuid "bd5ebae9-d6ad-4c58-9b92-5b7907857584")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
