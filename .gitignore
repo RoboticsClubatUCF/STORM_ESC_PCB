@@ -15,6 +15,12 @@ fp-info-cache
 *.lck
 ~*.lck
 
+# KiCad lock files
+~*.kicad_pro.lck
+~*.kicad_sch.lck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
 # Netlist / cache
 *.net
 *-cache.lib
