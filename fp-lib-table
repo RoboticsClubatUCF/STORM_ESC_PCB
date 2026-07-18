@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "Stepper_ESC") (type "KiCad") (uri "${KIPRJMOD}/Stepper_ESC.pretty") (options "") (descr ""))
+	(lib (name "mosfets") (type "KiCad") (uri "${KIPRJMOD}/Stepper_ESC.pretty/mosfets.pretty") (options "") (descr ""))
 )
