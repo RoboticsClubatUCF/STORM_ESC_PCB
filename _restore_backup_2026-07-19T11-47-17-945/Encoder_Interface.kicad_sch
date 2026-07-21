@@ -1312,7 +1312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Stepper_ESC:TSSOP14_OSM"
+		(property "Footprint" "TSSOP14_OSM"
 			(at 133.096 76.708 0)
 			(hide yes)
 			(show_name no)

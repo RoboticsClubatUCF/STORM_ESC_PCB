@@ -3088,22 +3088,10 @@
 		)
 	)
 	(junction
-		(at 106.68 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0024ef5f-5d6f-415b-b0fd-144b6d15583a")
-	)
-	(junction
 		(at 124.46 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0365608b-3c43-474c-9382-d9679f0a0d7b")
-	)
-	(junction
-		(at 92.71 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b7f64df-c73c-4436-a5ea-43af1861d515")
 	)
 	(junction
 		(at 160.02 167.64)
@@ -3130,12 +3118,6 @@
 		(uuid "245292cc-38f3-48bb-85e0-ccc82f19354a")
 	)
 	(junction
-		(at 201.93 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25ed750e-a353-4f58-b508-4f648169c519")
-	)
-	(junction
 		(at 96.52 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3148,10 +3130,28 @@
 		(uuid "40736e19-6bee-47cd-8bd0-6d73f08d7a12")
 	)
 	(junction
+		(at 201.93 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42d31dfc-8992-438b-9b38-2c5714826719")
+	)
+	(junction
 		(at 198.12 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f178cd2-593c-497e-a197-f75aae4abbd5")
+	)
+	(junction
+		(at 116.84 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5af43c7b-c420-4372-9847-52e485ec1b61")
+	)
+	(junction
+		(at 106.68 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d5049c3-7e74-4d97-bfc4-068ed6916659")
 	)
 	(junction
 		(at 13.97 119.38)
@@ -3196,12 +3196,6 @@
 		(uuid "84d7f2f0-6155-4ffa-95b1-f73c816e0a8c")
 	)
 	(junction
-		(at 116.84 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84f688dd-e2c3-4aa4-a295-dfd3dec9ffb4")
-	)
-	(junction
 		(at 148.59 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3214,16 +3208,16 @@
 		(uuid "8dc5f4bd-365e-4c16-b57a-d958947ca82b")
 	)
 	(junction
-		(at 82.55 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "969e3d22-1de2-468c-b644-4f1163515963")
-	)
-	(junction
 		(at 57.15 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4247f23-f65a-4b5d-bc7f-64766b61c244")
+	)
+	(junction
+		(at 82.55 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4224f90-c923-4aff-83e9-a3f81b3d53d5")
 	)
 	(junction
 		(at 222.25 54.61)
@@ -3248,6 +3242,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8b2f65b-8b34-41b9-af22-c929beef246c")
+	)
+	(junction
+		(at 92.71 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edcf22bf-8aad-4f6f-9867-531794e4cc24")
 	)
 	(junction
 		(at 29.21 106.68)
@@ -3276,6 +3276,16 @@
 			(type default)
 		)
 		(uuid "00fd71c3-6fe9-45b8-8b6d-1aedd4e17637")
+	)
+	(wire
+		(pts
+			(xy 217.17 57.15) (xy 217.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0241121d-e215-46d9-bae6-2fed253a3b38")
 	)
 	(wire
 		(pts
@@ -3340,16 +3350,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 87.63) (xy 116.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f45944d-a9fa-4ace-982c-638e6966a515")
-	)
-	(wire
-		(pts
 			(xy 138.43 64.77) (xy 138.43 66.04)
 		)
 		(stroke
@@ -3367,6 +3367,16 @@
 			(type default)
 		)
 		(uuid "11d41b5a-61ec-424d-a597-faa5c7cb59da")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 106.68 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f7ea75-b6c6-46d9-9299-79b4b846805d")
 	)
 	(wire
 		(pts
@@ -3420,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 31.75) (xy 204.47 31.75)
+			(xy 201.93 43.18) (xy 204.47 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3540,7 +3550,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 87.63) (xy 92.71 87.63)
+			(xy 82.55 88.9) (xy 92.71 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3587,16 +3597,6 @@
 			(type default)
 		)
 		(uuid "3270ed1b-2155-4b38-9930-44233a01f774")
-	)
-	(wire
-		(pts
-			(xy 92.71 87.63) (xy 92.71 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d18670-33d6-4591-b5ff-dc6c0d62039c")
 	)
 	(wire
 		(pts
@@ -3750,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 87.63) (xy 92.71 93.98)
+			(xy 92.71 88.9) (xy 92.71 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3760,7 +3760,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 31.75) (xy 224.79 31.75)
+			(xy 212.09 43.18) (xy 219.71 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3777,16 +3777,6 @@
 			(type default)
 		)
 		(uuid "5756688e-0aaa-4f5a-bc29-6d08d85f9710")
-	)
-	(wire
-		(pts
-			(xy 201.93 39.37) (xy 201.93 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bbc9aa0-1f9d-4fd2-9703-0bbba9aaa239")
 	)
 	(wire
 		(pts
@@ -3970,16 +3960,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 48.26) (xy 217.17 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83bee0e0-944e-4f03-aed6-fb0f963616ec")
-	)
-	(wire
-		(pts
 			(xy 222.25 93.98) (xy 222.25 88.9)
 		)
 		(stroke
@@ -3990,7 +3970,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 85.09) (xy 116.84 87.63)
+			(xy 116.84 85.09) (xy 116.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4120,16 +4100,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 31.75) (xy 201.93 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a181515f-8dfe-4474-b21b-f92c64053beb")
-	)
-	(wire
-		(pts
 			(xy 106.68 43.18) (xy 114.3 43.18)
 		)
 		(stroke
@@ -4190,6 +4160,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 43.18) (xy 201.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab31c212-710d-4f27-9989-f9943112b0df")
+	)
+	(wire
+		(pts
+			(xy 201.93 39.37) (xy 201.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4f6f6b-81b0-47b5-834c-f14b1bccbde0")
+	)
+	(wire
+		(pts
 			(xy 67.31 124.46) (xy 67.31 128.27)
 		)
 		(stroke
@@ -4247,6 +4237,16 @@
 			(type default)
 		)
 		(uuid "b580403b-6692-4307-bff9-bf82120118db")
+	)
+	(wire
+		(pts
+			(xy 217.17 46.99) (xy 227.33 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62e35cb-a78b-4ba1-9098-047aeb462c0d")
 	)
 	(wire
 		(pts
@@ -4410,6 +4410,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 93.98) (xy 92.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd008536-b3e9-4277-8cd8-88373bfb6055")
+	)
+	(wire
+		(pts
 			(xy 138.43 54.61) (xy 138.43 57.15)
 		)
 		(stroke
@@ -4470,6 +4480,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 93.98) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1032fd4-f393-48c7-8383-102b48b7bcff")
+	)
+	(wire
+		(pts
 			(xy 82.55 85.09) (xy 82.55 87.63)
 		)
 		(stroke
@@ -4490,7 +4510,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 87.63) (xy 106.68 87.63)
+			(xy 116.84 88.9) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4527,6 +4547,16 @@
 			(type default)
 		)
 		(uuid "d66bd29f-60c5-40de-b4c0-2c0434fa5b4a")
+	)
+	(wire
+		(pts
+			(xy 234.95 46.99) (xy 240.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d767f77c-9f3d-43f1-8d5b-22d1a9a5d4ef")
 	)
 	(wire
 		(pts
@@ -4737,6 +4767,16 @@
 			(type default)
 		)
 		(uuid "ee1ab49e-2858-45a9-9f94-9c80a6351691")
+	)
+	(wire
+		(pts
+			(xy 82.55 87.63) (xy 82.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45f5ecc-db84-40a2-bacf-cbfd8dc22c71")
 	)
 	(wire
 		(pts
@@ -5009,7 +5049,7 @@
 		(uuid "501218d6-dad8-4b06-80bd-5cb0e3eb5bb4")
 	)
 	(label "LA2_1"
-		(at 217.17 48.26 90)
+		(at 240.03 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5469,7 +5509,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d68b6548-957e-42b9-aabb-ae7f5f2963f1")
+			(uuid "5fec2c2c-1e8e-4d9b-a06b-d59fd1b94ffa")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -5526,7 +5566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 136.652 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -5560,10 +5600,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4361fd15-f79d-4da3-b21d-46d7e9facf4b")
+			(uuid "1744e7fd-546d-4bf9-9e57-9014dc1c7cc5")
 		)
 		(pin "2"
-			(uuid "acda818a-1f3e-4214-88fb-ca88f9b417ee")
+			(uuid "ec2117d1-46b2-409f-a618-6dea19129936")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -5608,7 +5648,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 118.11 114.046 90)
+			(at 121.92 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5651,10 +5691,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5891c7e8-d521-4d8c-b0eb-0cf93003d5c0")
+			(uuid "428e4b7c-8125-4c3b-9021-036e3a0fef4f")
 		)
 		(pin "1"
-			(uuid "20bc8554-0c34-486d-8968-e2c614a2778c")
+			(uuid "45f95309-7de3-49cb-973d-857ca0781945")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -5745,7 +5785,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "917c1b55-6ab5-47f4-9a68-d712966a3041")
+			(uuid "de54230f-0675-417a-8b72-60a794c64277")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -5836,7 +5876,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f27807cc-bee3-48fe-b6fa-6cabf99f6f75")
+			(uuid "18ff8883-70aa-4950-a0c3-1af977e53288")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -5926,10 +5966,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c9dbb1d7-94db-42f1-b799-cbe011859684")
+			(uuid "f448981e-12c6-4558-b4a6-fa767b1f5a65")
 		)
 		(pin "1"
-			(uuid "065ca27f-82b8-461a-9081-da86e5871874")
+			(uuid "a78979c7-599e-4c46-9531-c5e166b3a871")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -5986,7 +6026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 242.062 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -6020,10 +6060,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7298ed9d-5a79-461f-8244-52dafb97a5b0")
+			(uuid "171bdc9e-1cf2-4b71-926b-58285a397d3b")
 		)
 		(pin "2"
-			(uuid "d25d59da-48cc-4cb5-94a7-800f27bec1e0")
+			(uuid "73cdadf4-4afc-40bf-9237-4a5fbeb40564")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -6080,7 +6120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 191.262 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -6114,10 +6154,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c99aeda-7fad-4ae7-86e1-0bd52926d401")
+			(uuid "ab359b2c-5266-418a-bb81-4a37a40d0ce4")
 		)
 		(pin "2"
-			(uuid "e624c171-d2ea-4c3d-aa98-bd8dda2ac074")
+			(uuid "8bcf4cc1-b931-4d56-b436-9eba3c5858bb")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -6205,10 +6245,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1fa15e69-c47e-4dd6-9f05-386823c75a6c")
+			(uuid "262bf948-dcf0-4c9c-bbd6-2715e48c04ee")
 		)
 		(pin "1"
-			(uuid "5f7feecc-b195-4717-8ff3-54a5748df19d")
+			(uuid "6388d105-c714-4f3e-8947-dad9e2cecbd5")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -6263,7 +6303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 125.73 45.212 90)
 			(hide yes)
 			(show_name no)
@@ -6297,10 +6337,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a8d65ec-cfcd-4f44-8db5-6b9368272b83")
+			(uuid "6c2c0919-7bd2-4f07-870b-a73fc4bfa323")
 		)
 		(pin "2"
-			(uuid "04e7f316-35af-4c19-87eb-4033539bd649")
+			(uuid "8c756c3d-2a0d-4426-af10-c5351796e4b7")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -6391,7 +6431,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a65b2c0-9d19-412f-b44e-a1bd39813cdd")
+			(uuid "95522104-6159-4d5a-b4ee-8cbabfdb0138")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -6479,10 +6519,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ced1e331-3eb2-4edb-9368-5e8ae5818502")
+			(uuid "584e21e6-e097-441e-b1e8-54029aae2754")
 		)
 		(pin "1"
-			(uuid "624ee8b1-f3ee-4204-9fd8-4bf82e9e88e3")
+			(uuid "2ff27260-5be9-431e-ae93-dfacd53700a6")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -6573,7 +6613,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8baf5680-fb7a-4786-9489-17bcf25aba50")
+			(uuid "99ee0f57-9a47-4690-9bea-045576da90f9")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -6598,7 +6638,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 53.34 0)
+		(at 231.14 46.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6609,29 +6649,27 @@
 		(fields_autoplaced yes)
 		(uuid "559b9fcf-f860-42d7-b23b-dca261be70ee")
 		(property "Reference" "R29"
-			(at 214.63 52.0699 0)
+			(at 231.14 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "10"
-			(at 214.63 54.6099 0)
+			(at 231.14 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 215.392 53.34 90)
+		(property "Footprint" ""
+			(at 231.14 45.212 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6642,7 +6680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 53.34 0)
+			(at 231.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6653,7 +6691,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 53.34 0)
+			(at 231.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6664,10 +6702,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "57dd5c6f-d710-4064-9acf-5d9487e7f321")
+			(uuid "28033b2d-8db4-4012-b5a1-afc673253a10")
 		)
 		(pin "2"
-			(uuid "13e077ce-4514-43a4-ac72-e83c704c1df3")
+			(uuid "59ef8319-c5b9-44ae-a9eb-1260f9186e5b")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -6724,7 +6762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 252.222 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -6758,10 +6796,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef7c1f97-bfbb-4bdf-af1a-6b0ecb6fcc60")
+			(uuid "bbb150f0-4b47-487f-abe0-2359765d9656")
 		)
 		(pin "2"
-			(uuid "f4d8ea8d-a206-41b6-a954-f103cd470086")
+			(uuid "23b0d401-c744-481f-be48-8bed9afd7519")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -6851,7 +6889,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5c32e2c-0e8d-4e9f-9789-cef79f4eccb4")
+			(uuid "1621e24e-cb1e-409f-b817-6cd35c77028d")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -6941,7 +6979,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e59900a0-8254-4575-97cf-1600e796a42b")
+			(uuid "c93a5176-30e3-4f3d-ab0f-61ba6fb088f3")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -6998,7 +7036,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Stepper_ESC:DFN2020-6L_MCE"
+		(property "Footprint" "DFN2020-6L_MCE"
 			(at 212.09 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7034,22 +7072,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "c06073ef-687c-47b9-887c-f0da052a8e0e")
+			(uuid "695ec0a0-a5a2-402c-b80e-3c21442c8fdd")
 		)
 		(pin "6"
-			(uuid "b90ce126-377b-43e7-a4f4-c7db00937746")
+			(uuid "d5aad88b-15cf-40a8-91e4-bea676391edf")
 		)
 		(pin "3"
-			(uuid "9bf82be9-d89d-4b1f-8ffc-9dedef09362e")
+			(uuid "2bead2b9-f667-41d3-90de-8923b70d6f38")
 		)
 		(pin "4"
-			(uuid "1cd3e510-4184-45b0-8fb8-08da325041dd")
+			(uuid "2b1d18d9-ad71-4426-b705-9a3346417594")
 		)
 		(pin "5"
-			(uuid "57e7d771-da49-4170-9adf-fcc29bc35790")
+			(uuid "62cba5c9-8edf-44a9-b6e2-18bb8521d866")
 		)
 		(pin "1"
-			(uuid "6f9db825-925d-487e-98b0-61b498e5c441")
+			(uuid "41a08098-100e-4d70-a8c8-aa64196b8826")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -7138,10 +7176,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "46b0dd6b-c0cb-4bd3-a4ee-dbe687f439a1")
+			(uuid "811434ff-7f84-4852-acff-13976cc2f7f8")
 		)
 		(pin "1"
-			(uuid "a7910576-572b-424a-91fd-c924a14fa8ae")
+			(uuid "b702328d-2214-46ac-a387-bb3263519908")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -7166,7 +7204,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 31.75 90)
+		(at 219.71 43.18 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7177,7 +7215,7 @@
 		(dnp no)
 		(uuid "6890ccc7-849c-4382-b93d-84ca15246a2b")
 		(property "Reference" "#PWR082"
-			(at 231.14 31.75 0)
+			(at 226.06 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7188,7 +7226,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 31.7499 90)
+			(at 223.52 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7199,7 +7237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 31.75 0)
+			(at 219.71 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7210,7 +7248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 31.75 0)
+			(at 219.71 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7221,7 +7259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 31.75 0)
+			(at 219.71 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7232,7 +7270,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b44ae4d6-1ac8-4e59-b631-0360533a3473")
+			(uuid "828acaaf-03ac-4456-bf65-150f75c05745")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -7320,10 +7358,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "277a0024-ac32-473d-b578-c5ef4b341925")
+			(uuid "bd5ca170-6c96-46fd-9d9b-8b985159b1cc")
 		)
 		(pin "1"
-			(uuid "54590d2e-e854-47d1-aa79-de8c40054dc8")
+			(uuid "fe3f8497-90dd-4224-a22f-ffb28ed23aa3")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -7413,7 +7451,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "90702626-7298-4337-871f-5df12d26e76c")
+			(uuid "8c8d9e21-2b5e-42bb-a507-ca93827eee03")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -7469,7 +7507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Stepper_ESC:DFN2020-6L_MCE"
+		(property "Footprint" "DFN2020-6L_MCE"
 			(at 187.96 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7505,22 +7543,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "38ce5fd8-30aa-413d-ae71-a0d550bd58dc")
+			(uuid "a212e532-295c-4b21-8b05-b884f9f8b4e9")
 		)
 		(pin "6"
-			(uuid "019fbe4d-ce98-4454-bac7-464ddf3946f6")
+			(uuid "7fb56020-b743-4cee-bbf5-8d38f163221f")
 		)
 		(pin "3"
-			(uuid "2e610d89-8a30-478e-9b16-f25b21ad0475")
+			(uuid "56007ecb-5ca1-47d2-acb1-5c6e4fb5e6db")
 		)
 		(pin "4"
-			(uuid "f9d5988d-530a-478c-893d-2b6131e856f0")
+			(uuid "2f5e26db-2916-4f4e-8a2e-ba9f988fe216")
 		)
 		(pin "5"
-			(uuid "57acb7e6-91dc-4563-ab1d-b04033b9bdab")
+			(uuid "b4bd6ed9-c61f-42bf-8381-4b95353cf037")
 		)
 		(pin "1"
-			(uuid "dd1877b2-73c1-4ce2-a418-62404a490ada")
+			(uuid "d92ef936-6eec-4919-979e-8a221377a230")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -7610,7 +7648,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8a6b389-7457-4f03-8f48-406f65e15e2c")
+			(uuid "f3bd6dd0-157e-4f6b-8f0f-8baa504e6f3e")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -7699,10 +7737,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d97df06e-645d-43cf-a4db-05547380314c")
+			(uuid "da7fbb45-75b1-4685-a8b2-e237a776d650")
 		)
 		(pin "1"
-			(uuid "cd0fb245-c3e3-4ded-ad67-77fa383296a7")
+			(uuid "6e73042e-94a8-4702-bcff-2d2c372204f4")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -7793,7 +7831,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1c34132-5f63-4117-a679-e4f09f572f3c")
+			(uuid "d4b2aff7-5d06-4525-bc48-caefc0f828d1")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -7884,7 +7922,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "19846311-1da7-46de-a3fd-0897b6d3f3a9")
+			(uuid "738af24b-73f1-4858-9e26-e00114a6a5eb")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -7975,7 +8013,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "02086703-99d0-40e7-acda-bfa2c37bb705")
+			(uuid "b8a47ec0-5223-43a2-8db1-7f774d045598")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -8030,7 +8068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 73.66 45.212 90)
 			(hide yes)
 			(show_name no)
@@ -8064,10 +8102,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c684f33-bc76-4756-8391-b444330e0c09")
+			(uuid "a97933b4-94da-4858-8eb3-22076b07c19b")
 		)
 		(pin "2"
-			(uuid "402f625b-1437-4c92-bbe9-627a01a5eef0")
+			(uuid "0c871f6e-981b-4377-ba5c-261ffa24d704")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -8124,7 +8162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Stepper_ESC:DFN2020-6L_MCE"
+		(property "Footprint" "DFN2020-6L_MCE"
 			(at 106.68 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8160,22 +8198,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "7106872c-ec48-4017-b991-33874eab8b5a")
+			(uuid "af382201-6620-454f-b1f1-428d5dacd821")
 		)
 		(pin "6"
-			(uuid "20a2d420-9d62-4fc8-918f-3bc7783298df")
+			(uuid "190314e2-6bdd-44d1-8210-ed6c551f2832")
 		)
 		(pin "3"
-			(uuid "a5f1b614-cbc5-47d0-a418-5652467c331d")
+			(uuid "2c2dec8c-87c3-4f5d-a49e-f3dd7bacbf33")
 		)
 		(pin "4"
-			(uuid "6d537981-be72-41bb-b13c-7336e1713566")
+			(uuid "d21fedd8-af5a-4946-b4ba-5429923fc63f")
 		)
 		(pin "5"
-			(uuid "02b78e73-2ba9-4760-b27d-d0dd6486c4c5")
+			(uuid "0064c145-8607-41b5-866d-00e3a6cb86e8")
 		)
 		(pin "1"
-			(uuid "6a25ae67-9096-44b2-9b94-1aa90a3e0406")
+			(uuid "86d788cd-70ba-473c-a7c8-8547a15c2847")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -8266,7 +8304,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c9730a7-78bd-4d2b-989a-26a81d166d6e")
+			(uuid "31deca50-1367-423a-850a-6882337cefd6")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -8357,7 +8395,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "15989bb1-00ef-4fe0-a782-1c972f7a97f8")
+			(uuid "e5f7d094-d785-4dbe-894b-2139aef1bde9")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -8412,7 +8450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 179.07 45.212 90)
 			(hide yes)
 			(show_name no)
@@ -8446,10 +8484,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "57e07260-a351-4662-a970-646700ece770")
+			(uuid "359d4916-7654-4aec-aaf9-108695abaaf4")
 		)
 		(pin "2"
-			(uuid "ea092f01-4fff-4814-9e86-dd45df7affd2")
+			(uuid "2132561f-4ba4-464e-abc5-e317f5e41e18")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -8503,7 +8541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" ""
 			(at 106.68 32.0548 0)
 			(hide yes)
 			(show_name no)
@@ -8537,10 +8575,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "fb3dba0b-d60c-40cf-9253-25ee621dea67")
+			(uuid "0e9e0162-e246-47bb-86d4-18484c84454d")
 		)
 		(pin "1"
-			(uuid "8084f041-c14d-40c9-a647-740157b53423")
+			(uuid "5ee2e970-aecb-46a6-b092-262bc54ee73a")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -8631,7 +8669,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "caa6b085-ac69-4d0f-9c11-b51fcaaa838a")
+			(uuid "554cc62f-d521-4ec7-a263-f789d1bfade2")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -8721,7 +8759,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "32e45f23-a322-4099-a427-f6580cb57492")
+			(uuid "3a505572-b762-4794-8f66-518706fa6abf")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -8810,10 +8848,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "88015fad-79b3-4ebe-89d1-c00ea3ed0fdd")
+			(uuid "b822510a-749a-40ae-b7cc-045e8366e09e")
 		)
 		(pin "1"
-			(uuid "f89c4aaf-e97a-461d-954e-1f20fd017f1c")
+			(uuid "c0a75e33-73d5-4350-b498-e762ec9971e7")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -8868,7 +8906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 143.51 52.832 90)
 			(hide yes)
 			(show_name no)
@@ -8902,10 +8940,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ce2f4bc-d0d1-4538-bfe1-ee5469da77a9")
+			(uuid "e34b8dd2-7f8f-4e96-ba2e-2f3765411654")
 		)
 		(pin "2"
-			(uuid "e5780f75-4d1b-4720-aad9-057e3eed885a")
+			(uuid "15d46927-f27a-4556-bb96-2bf494fb24fd")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -8962,7 +9000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Dinkle:TerminalBlock_Dinkle_DT-55-B01X-04_P10.00mm"
+		(property "Footprint" ""
 			(at 25.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8996,16 +9034,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "62d66eec-11d9-4ca2-b957-9ab89cfeefdf")
+			(uuid "acae9132-680b-4226-9b39-debc9924b78e")
 		)
 		(pin "4"
-			(uuid "bd0a094c-b999-4204-8f20-6c5785c0b239")
+			(uuid "4ccb5a93-e011-47a5-851f-975baef850bf")
 		)
 		(pin "2"
-			(uuid "0f971ca2-847c-4aa8-95ff-a77faa6784ec")
+			(uuid "ec03299a-29f1-4f33-ada7-d2fe6b6d9958")
 		)
 		(pin "3"
-			(uuid "6aa0e0b0-dda6-4fa0-9047-2252931cc897")
+			(uuid "be0d4d00-a5d1-4f99-b1d3-cce36a29330b")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -9096,7 +9134,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3f39179-fa81-49fc-8088-a928938e7c97")
+			(uuid "71d83108-ff95-4674-974e-eca4ad9ba88e")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -9153,7 +9191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 109.982 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -9187,10 +9225,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b0877d5-7251-431c-b866-98214e3ea410")
+			(uuid "4ee01e24-213a-4b62-81f6-9e3f0cec3d8d")
 		)
 		(pin "2"
-			(uuid "0bf7140d-5b18-47e6-8ff3-0b26a7c3dbc3")
+			(uuid "2bdbe789-4b93-45b8-8db9-43b2bd944c7d")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -9247,7 +9285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 146.812 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -9281,10 +9319,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "36cb1f42-b4e1-46ff-94b9-90b8e33e1fe7")
+			(uuid "5fb451fa-bc5e-4589-9a6c-b04c930d6fbe")
 		)
 		(pin "2"
-			(uuid "1203ef46-752f-4b08-827d-856964dd8015")
+			(uuid "e0f2f701-92f5-4bbd-b4b9-02ddc4ca82af")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -9374,7 +9412,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1336b95a-91f0-4929-ade5-7a5cec2f663f")
+			(uuid "7b2a6160-cdd5-4c01-804f-e915f6e5d36b")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -9465,7 +9503,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d59fa9c-293d-4555-9787-fac46df4798f")
+			(uuid "9ce9067d-7221-448d-93ad-3f01e9251970")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -9522,7 +9560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 215.392 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -9556,10 +9594,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6cd34904-01a6-492a-a670-4dbee3bbb1ba")
+			(uuid "98e0b2c5-1950-4288-9bc9-e2d254b45e76")
 		)
 		(pin "2"
-			(uuid "9597baaa-a924-44fa-82f5-d6767ee9886e")
+			(uuid "ac2da9e0-8c85-45ea-9fba-cf0f9d139dcf")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -9615,7 +9653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Stepper_ESC:DFN2020-6L_MCE"
+		(property "Footprint" "DFN2020-6L_MCE"
 			(at 82.55 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9651,22 +9689,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "5497ee3f-db2f-48da-814f-e0f399a14ec4")
+			(uuid "a09d2540-66bf-435f-83cd-15d669bc064f")
 		)
 		(pin "6"
-			(uuid "53e37a0e-d6e2-45d8-82df-b3e8c1631472")
+			(uuid "0c9a8aac-d50a-4190-90a0-5c5435baae30")
 		)
 		(pin "3"
-			(uuid "c8e14d73-a255-4fc9-a344-c0cd5c728e1c")
+			(uuid "ae84ad40-f5da-42c9-84d2-f2e6b091cdbe")
 		)
 		(pin "4"
-			(uuid "138425d1-b4cb-440b-9e7a-b59202167869")
+			(uuid "8f94e322-c425-4c57-8708-8ce246fef407")
 		)
 		(pin "5"
-			(uuid "8cca0f72-3e42-4ed8-b76a-a059dce951c4")
+			(uuid "bfec9755-bed1-48c7-9555-011896ec21f8")
 		)
 		(pin "1"
-			(uuid "bf4ac54a-1ddc-482d-96d5-f9b1c3214836")
+			(uuid "41c495e0-1eac-4b7b-91ab-1493c06d1b00")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -9754,10 +9792,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5fc688c6-d4d5-43d3-b899-55e099a2e2b8")
+			(uuid "b9188361-2c47-49e0-afdc-48bb1ab3f1df")
 		)
 		(pin "1"
-			(uuid "e8d4e794-3d34-4fa3-9b9e-d2fe7c8544cb")
+			(uuid "dfa96724-0762-45bb-9071-1cdc4f632c40")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -9812,7 +9850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Stepper_ESC:21-100582_ADI"
+		(property "Footprint" "21-100582_ADI"
 			(at 66.04 123.698 0)
 			(hide yes)
 			(show_name no)
@@ -9848,151 +9886,151 @@
 			)
 		)
 		(pin "44"
-			(uuid "9beca448-6f6b-453d-8f93-913fe85a1fe3")
+			(uuid "a73f4e70-bfc5-45c3-b0ae-2ddf626e4938")
 		)
 		(pin "45"
-			(uuid "5f9d1975-2b3f-4132-8d59-98a22dc7badc")
+			(uuid "467206fe-1eef-4335-8b3e-78a2b4cd75fd")
 		)
 		(pin "43"
-			(uuid "f0668eb6-0ac8-4b33-9076-f1279a778b16")
+			(uuid "789f780e-fe90-47e8-99d7-8d81e7d95ace")
 		)
 		(pin "46"
-			(uuid "8a9971f0-7d1d-4808-b891-d1cc899fee7b")
+			(uuid "edbde9aa-86ee-4551-a609-a3f218213ef8")
 		)
 		(pin "23"
-			(uuid "afe6230f-5afb-4c98-8c43-c81b962120ee")
+			(uuid "15354482-5fe4-4e42-884e-665d3b18b84f")
 		)
 		(pin "48"
-			(uuid "327043eb-f733-4df8-a517-febbe2e0c599")
+			(uuid "4cb0add2-95a6-4e1d-bcfb-8931e30fc86b")
 		)
 		(pin "47"
-			(uuid "6d8ecc23-581d-4fce-8a27-dd126b982ed0")
+			(uuid "7c36b917-ca80-4d95-8350-37faa0ca69a1")
 		)
 		(pin "49"
-			(uuid "fc73936c-ecca-4c25-9986-b9d395040477")
+			(uuid "7da29183-2ce6-4bd0-ad9a-6ea1c024e21a")
 		)
 		(pin "20"
-			(uuid "b685b733-ca82-4f89-88ac-7f6ee3073cbb")
+			(uuid "4a82cc81-0387-4d94-bf2c-5a1732488359")
 		)
 		(pin "19"
-			(uuid "8f40c3f5-3f04-4e23-8c8f-1b83f9a55bb1")
+			(uuid "03f374d5-3104-4884-bae6-999e7cfa5004")
 		)
 		(pin "16"
-			(uuid "47747b22-0d18-40b5-8343-55a0712fa68c")
+			(uuid "44700901-d03f-48b4-a261-a06c7aa0744f")
 		)
 		(pin "22"
-			(uuid "4e4d2550-15c1-4439-bf44-e075532db24d")
+			(uuid "c4c849d9-d522-4083-ba12-c9c22d4bb309")
 		)
 		(pin "21"
-			(uuid "50f0bfa8-3635-4254-826f-56e8d06f832c")
+			(uuid "1fc36f7d-8122-41e4-89b7-b156494940f5")
 		)
 		(pin "17"
-			(uuid "ea5b8369-fdcb-4ea7-99fd-b9904523d625")
+			(uuid "6c5ab233-415f-4c9f-8248-bfe250afd652")
 		)
 		(pin "18"
-			(uuid "bccf56aa-060d-4ed5-8d17-c55e4572d33d")
+			(uuid "d9101cff-52b1-409a-9a59-2a47909c46bc")
 		)
 		(pin "15"
-			(uuid "d5b36db0-1642-48a6-8e60-88cd3b184b89")
+			(uuid "b0e28bb1-033c-4151-b68d-793fadcf1692")
 		)
 		(pin "14"
-			(uuid "a87e92b5-0daa-4028-85bc-d767667555cb")
+			(uuid "c7b561ea-234a-44af-a767-dc2dccfdd4c1")
 		)
 		(pin "13"
-			(uuid "8c9fc61d-9323-40bf-b648-9fa7d73775fd")
+			(uuid "11cecac4-063b-4ad1-ae06-6ca5fd594dc2")
 		)
 		(pin "12"
-			(uuid "bcf3554c-d561-4bb4-9513-e112aed22284")
+			(uuid "561edc6d-4620-427e-8076-3097f870fbc2")
 		)
 		(pin "11"
-			(uuid "a0ca941f-eb79-4dd4-ad38-eef891d66dbe")
+			(uuid "ede8f9bf-0450-4dc0-bb5e-824dbbc66ea4")
 		)
 		(pin "10"
-			(uuid "e6a0f985-54d6-4977-8ed0-f2c72a7494c6")
+			(uuid "0f3c8c97-601e-4fe6-8b7e-45ff8dce81db")
 		)
 		(pin "9"
-			(uuid "54520c68-0326-48f1-9020-7b3d3bb4c12c")
+			(uuid "4af7b3d7-5366-4dbe-8b02-5bea60ea1587")
 		)
 		(pin "8"
-			(uuid "b75ccec2-612d-4701-95c7-470889892680")
+			(uuid "3fd91fd9-4c06-4bd3-8244-b4a4e97da184")
 		)
 		(pin "7"
-			(uuid "e28af197-d4e4-46ea-84ac-7776ff932b08")
+			(uuid "b116b1d6-37c8-4ea1-a21d-d532dea9f39d")
 		)
 		(pin "6"
-			(uuid "3a2da300-aba5-4361-b2c0-036c9d6d37eb")
+			(uuid "45d9f3aa-b72c-4b57-b537-b36b67809941")
 		)
 		(pin "5"
-			(uuid "64b0d969-8b40-4842-82c8-25387434553d")
+			(uuid "be16c7ac-683f-47ea-95c0-be106aabf1e2")
 		)
 		(pin "4"
-			(uuid "a3458f36-4336-496c-ab4d-126398f9954b")
+			(uuid "74b58db2-1db0-45cc-88ac-74c4811e4a11")
 		)
 		(pin "3"
-			(uuid "73ea8e84-f3b5-49ff-9835-ec26fdeb7ba9")
+			(uuid "89e74631-8c27-4665-844c-56c5b248641e")
 		)
 		(pin "2"
-			(uuid "0446570b-d110-4847-b784-c3d49ab63a04")
+			(uuid "b951df98-1c64-4ce3-937e-72aa7da52c49")
 		)
 		(pin "1"
-			(uuid "968ef785-dd51-4f12-8477-d8616e9488c8")
+			(uuid "0098eb09-626a-4f3a-ae04-0359bea767cb")
 		)
 		(pin "42"
-			(uuid "f3cfcabd-8428-486a-8826-fe2b72bfa5cf")
+			(uuid "2b1c7734-dab0-4174-8b8d-459791dab530")
 		)
 		(pin "41"
-			(uuid "50a5e2aa-5a59-46c9-b267-e72300ad2c76")
+			(uuid "66516e19-2676-4c3c-897a-ccdd325fdad9")
 		)
 		(pin "40"
-			(uuid "e06419ee-4798-4301-a0fa-27780072249f")
+			(uuid "00e9f656-d546-4f1a-9f78-e2f51c6bc46b")
 		)
 		(pin "39"
-			(uuid "69fca3fa-0720-4d25-a905-b6ce9e94af52")
+			(uuid "455097b5-fc66-4606-ade6-694b859da226")
 		)
 		(pin "38"
-			(uuid "dbb33dcd-56ff-4ba7-b8f2-04fc0cf0bf65")
+			(uuid "ee94fa61-d3c2-40ee-8ce3-2523d1855cb0")
 		)
 		(pin "37"
-			(uuid "45703611-f67b-4c25-925a-6a46e0712e5e")
+			(uuid "b57c9dc5-86ae-411d-b995-4ef713d5a4eb")
 		)
 		(pin "36"
-			(uuid "9e1c3c47-dbed-4760-9053-dfdc62c7f28f")
+			(uuid "fb688a4d-56bd-47f7-986c-d6d1deb0ddc2")
 		)
 		(pin "35"
-			(uuid "c22bf542-5f89-496d-b3d8-801af531ffee")
+			(uuid "f13365ed-63e8-41b8-a330-96bb3aa99918")
 		)
 		(pin "34"
-			(uuid "10627b38-380b-454b-b672-8c9e2f716710")
+			(uuid "45104ae1-b8d3-4378-a48e-9bede3831367")
 		)
 		(pin "33"
-			(uuid "b225b21f-dce6-45d2-9869-02d11773ee87")
+			(uuid "7514c256-5cf4-4e35-922e-58ed4a0ae696")
 		)
 		(pin "32"
-			(uuid "2335a286-1f6e-440d-bb32-71bdb4766dfe")
+			(uuid "cd308420-8d1e-41db-aeba-d3df30654919")
 		)
 		(pin "31"
-			(uuid "da4f0a93-8af6-4940-be8c-67d5e536ce7f")
+			(uuid "850f1726-60d4-42af-8242-5753083eee7a")
 		)
 		(pin "30"
-			(uuid "10b9191b-6c07-4347-8b9a-2bbaddae9776")
+			(uuid "c4c3fd84-4e03-4fde-8d68-3f134edd6792")
 		)
 		(pin "29"
-			(uuid "dfbf211e-738e-46d3-a5dd-0af256eabf0f")
+			(uuid "a69f7c40-8c06-4728-93fb-a4c4902d6a58")
 		)
 		(pin "28"
-			(uuid "2dfe1574-617e-4df1-8025-9fef6168e7b0")
+			(uuid "3807b4e7-19e6-4c94-801c-d8e8511b5572")
 		)
 		(pin "27"
-			(uuid "d4998109-d81b-41fc-a31e-0b986a52d191")
+			(uuid "c01ec8a1-c50e-4f56-b22b-15ace98dfa4b")
 		)
 		(pin "26"
-			(uuid "c4fbb02b-9164-4854-8cfb-55b6000e6467")
+			(uuid "bed77692-0218-41dc-999a-a16de4aa8999")
 		)
 		(pin "25"
-			(uuid "1f8246fc-0234-4798-a000-d7218686144c")
+			(uuid "f4cbff06-8187-4e91-991e-bbfaacbbef08")
 		)
 		(pin "24"
-			(uuid "d79642ee-89ac-4030-8049-2009614026ac")
+			(uuid "b193d0d4-4550-4853-a8a8-9ba99ca89a6e")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -10047,7 +10085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 248.92 52.832 90)
 			(hide yes)
 			(show_name no)
@@ -10081,10 +10119,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4c27b70-588c-4f0e-b85b-7ad6ec79c778")
+			(uuid "25a3a2e4-68cc-4a76-bd52-88c1d1736392")
 		)
 		(pin "2"
-			(uuid "02f1c5eb-4ec6-4451-9ef7-d12b2ec34750")
+			(uuid "6c52736f-c32f-4e43-a823-72bfca7dcde9")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -10141,7 +10179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 85.852 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -10175,10 +10213,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "efdbcc46-4ab5-45bd-892d-1e404a921229")
+			(uuid "be727779-4d3c-42cf-b1c9-c992c4f7b14a")
 		)
 		(pin "2"
-			(uuid "da29ea96-5164-40f6-bb40-9f0b24096972")
+			(uuid "c13812c7-45cb-4639-8351-97ce79b99c77")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -10268,7 +10306,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "51620383-c5a8-4d71-b0e4-e2b527b5cabb")
+			(uuid "19739c1f-4c95-4eaf-9675-e2f8dde8699c")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -10293,7 +10331,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 208.28 31.75 270)
+		(at 208.28 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10303,7 +10341,7 @@
 		(dnp no)
 		(uuid "d2d54176-f0e0-436a-9e6e-6c7fef945ab3")
 		(property "Reference" "C51"
-			(at 211.836 30.48 90)
+			(at 211.836 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10313,7 +10351,7 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 215.9 30.48 90)
+			(at 215.9 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10323,7 +10361,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 204.47 32.7152 0)
+			(at 204.47 44.1452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10334,7 +10372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 31.75 0)
+			(at 208.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10345,7 +10383,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 208.28 31.75 0)
+			(at 208.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10356,10 +10394,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2a0653ea-3fb4-488a-a531-4291a554d54f")
+			(uuid "817cc440-9be5-4830-a389-72ec630edbd2")
 		)
 		(pin "1"
-			(uuid "329f85c3-1ab4-4c9d-be48-cbfa039610bc")
+			(uuid "ef601ee1-a647-4aef-b9e1-8fc6410213af")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -10416,7 +10454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" ""
 			(at 27.432 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -10450,10 +10488,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1b6a6838-1839-43b0-9951-7b2ddfd42607")
+			(uuid "db68f4c7-ff7a-4e4d-a062-0287fbf8e90a")
 		)
 		(pin "1"
-			(uuid "cf06de73-200a-4e24-935b-20379216426d")
+			(uuid "ae6b654f-9284-4a4b-9c2e-6859c163951f")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -10544,7 +10582,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "55c17132-1579-4627-af48-0140e50e5d27")
+			(uuid "15f466c7-ef3b-4f76-9dcd-85d2d9e37503")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -10632,10 +10670,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e72b95c0-d186-44e5-ba8b-2fd599b9fa5d")
+			(uuid "09d106d7-2391-493c-aff2-227c58e0fc9e")
 		)
 		(pin "1"
-			(uuid "ca142c0e-a376-4e83-bc2c-8f38512b4e2f")
+			(uuid "c873aff7-2cfa-4464-ba0f-3d8db45f4367")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -10723,10 +10761,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6b81b9c4-ce91-429c-a6fc-65fd1b0d7703")
+			(uuid "2732c5d4-a59d-4761-8b35-872c15707cc1")
 		)
 		(pin "1"
-			(uuid "35fb0ee3-55bf-49d5-ab93-d1ca7966e50e")
+			(uuid "dca1a77f-c6e4-4b2a-9fb4-6c2ae871db65")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -10815,10 +10853,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0cd77a00-019a-4baa-84e9-10703619b52a")
+			(uuid "157d88d4-8b25-4e2c-bd7d-84cfa2a9c081")
 		)
 		(pin "1"
-			(uuid "40020e27-93ac-4597-a4e8-05ba9d8a4bfd")
+			(uuid "dd7fc3cf-3492-4e6b-992c-23b2f7597441")
 		)
 		(instances
 			(project "Stepper_ESC"
@@ -10907,10 +10945,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3c96a341-8bb6-4430-93a4-7841912c5bc0")
+			(uuid "05ab2785-e193-42b4-95c0-49b107a45852")
 		)
 		(pin "1"
-			(uuid "6b44becc-6d71-4718-914d-6688ebbf76e2")
+			(uuid "f4c7fd4d-47e7-4ac8-8b7f-c86393f25656")
 		)
 		(instances
 			(project "Stepper_ESC"

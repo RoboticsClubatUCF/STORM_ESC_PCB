@@ -53,7 +53,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -187,7 +193,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +223,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -497,11 +511,20 @@
         "wire_width": 6
       },
       {
+        "bus_width": 16,
+        "name": "12V Input",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(216, 84, 9)",
+        "tuning_profile": "",
+        "wire_width": 8
+      },
+      {
         "bus_width": 12,
         "line_style": 0,
         "name": "3.3V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(0, 170, 255)",
         "tuning_profile": "",
         "wire_width": 6
@@ -511,17 +534,26 @@
         "line_style": 0,
         "name": "3.3VA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(0, 5, 255)",
         "tuning_profile": "",
         "wire_width": 6
+      },
+      {
+        "bus_width": 6,
+        "name": "Driver",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(29, 255, 44)",
+        "tuning_profile": "",
+        "wire_width": 3
       },
       {
         "bus_width": 12,
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgb(255, 2, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -625,12 +657,60 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -675,11 +755,7 @@
         "uuid": "9271e9dc-3850-4149-b59f-a263c29a5edc"
       }
     ],
-<<<<<<< HEAD
-    "used_designators": "Q1-4,J3,R8-21,#PWR68-78,C32-41",
-=======
-    "used_designators": "D3-4,#PWR42,#PWR46-77,U4-5,C25-31,R7-11",
->>>>>>> 1fa07da70482312630f2952ca385c6d5968d96c0
+    "used_designators": "J1",
     "variants": []
   },
   "sheets": [
@@ -696,16 +772,28 @@
       "MCU_STM32"
     ],
     [
-      "358646e9-db5d-47e8-9397-c0d3a98e1ef4",
-      "TMC5160_Driver"
-    ],
-    [
       "f237d2ca-1c42-4296-a463-2ca4d5b913a5",
       "CAN_Interface"
     ],
     [
       "156f6e66-e0ae-4310-9356-95b5ea82e070",
-      "Encoder_Interface"
+      "AS5047P"
+    ],
+    [
+      "ec299688-ef91-4b9a-bb2a-f0317691d50e",
+      "TMC5160_Driver1"
+    ],
+    [
+      "78ece874-a9db-40e5-aced-afc633afdc0b",
+      "TMC5160_Driver2"
+    ],
+    [
+      "73a00d01-028e-401a-b562-aa7b1ddc0e85",
+      "TMC5160_Driver3"
+    ],
+    [
+      "6df0a6d1-4185-4709-a4cd-930e9fd8d7cd",
+      "TMC5160_Driver4"
     ]
   ],
   "text_variables": {},
