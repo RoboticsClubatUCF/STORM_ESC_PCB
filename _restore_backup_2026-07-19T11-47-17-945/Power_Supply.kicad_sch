@@ -3511,7 +3511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" ""
 			(at 139.3952 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4145,7 +4145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+		(property "Footprint" ""
 			(at 60.96 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4381,7 +4381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal"
+		(property "Footprint" ""
 			(at 62.23 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6297,7 +6297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0402_1005Metric"
+		(property "Footprint" ""
 			(at 78.74 54.102 90)
 			(hide yes)
 			(show_name no)

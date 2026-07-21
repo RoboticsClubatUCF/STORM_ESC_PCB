@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -77,6 +77,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -89,19 +91,23 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
-      156,
-      141,
-      103,
+      162,
+      147,
+      91,
+      67,
+      91,
+      91,
+      91,
       71,
-      103,
-      103,
-      103,
-      74,
-      103,
-      103
+      91,
+      91,
+      91,
+      91
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
