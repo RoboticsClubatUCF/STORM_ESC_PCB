@@ -50,26 +50,16 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
-          "fill_mode": 0,
-          "hatch_gap": 1.5,
-          "hatch_orientation": 0.0,
-          "hatch_smoothing_level": 0,
-          "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +193,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +223,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -466,7 +464,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -513,11 +511,20 @@
         "wire_width": 6
       },
       {
+        "bus_width": 16,
+        "name": "12V Input",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(216, 84, 9)",
+        "tuning_profile": "",
+        "wire_width": 8
+      },
+      {
         "bus_width": 12,
         "line_style": 0,
         "name": "3.3V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 170, 255)",
         "tuning_profile": "",
         "wire_width": 6
@@ -527,27 +534,26 @@
         "line_style": 0,
         "name": "3.3VA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 5, 255)",
         "tuning_profile": "",
         "wire_width": 6
       },
       {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "CSN_CFG3",
+        "bus_width": 6,
+        "name": "Driver",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(255, 214, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(29, 255, 44)",
         "tuning_profile": "",
-        "wire_width": 6
+        "wire_width": 3
       },
       {
         "bus_width": 12,
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(255, 2, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -749,7 +755,7 @@
         "uuid": "9271e9dc-3850-4149-b59f-a263c29a5edc"
       }
     ],
-    "used_designators": "#PWR1-187,D1-4,U1-11,C1-122,J1-9,R1-100,#FLG1-4,Q1-24,F1,FB1,L1,Y1",
+    "used_designators": "J1",
     "variants": []
   },
   "sheets": [
@@ -764,10 +770,6 @@
     [
       "b19c42ad-1e0e-490e-95d5-f79358467d1c",
       "MCU_STM32"
-    ],
-    [
-      "05db208f-82d2-4650-a2cc-8de313598a80",
-      "TMC5160_Driver5"
     ],
     [
       "f237d2ca-1c42-4296-a463-2ca4d5b913a5",

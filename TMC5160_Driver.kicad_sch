@@ -5414,7 +5414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05e8532f-193d-48d5-8106-cf0dc25a013b")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR088"
 			(at 40.64 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5473,10 +5473,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0169")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0154")
 					(unit 1)
@@ -5508,7 +5504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "076de959-c80f-4fc2-a8a9-76a3f0908a0a")
-		(property "Reference" "R91"
+		(property "Reference" "R32"
 			(at 140.97 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5571,10 +5567,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R91")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R77")
 					(unit 1)
@@ -5605,7 +5597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10141b4d-307e-4ffb-b56b-9547283bc581")
-		(property "Reference" "C117"
+		(property "Reference" "C54"
 			(at 117.856 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5666,10 +5658,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C117")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C99")
 					(unit 1)
@@ -5701,7 +5689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f0d429d-b15e-4e37-9c13-6e381052ee79")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR081"
 			(at 120.65 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5761,10 +5749,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0181")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0147")
 					(unit 1)
@@ -5796,7 +5780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21fad6cb-a4eb-48a0-9b34-12ddcb0663c3")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR092"
 			(at 60.96 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -5856,10 +5840,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0173")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0158")
 					(unit 1)
@@ -5890,7 +5870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22d13346-9848-4003-bcea-00359e94f6a9")
-		(property "Reference" "C114"
+		(property "Reference" "C49"
 			(at 83.82 36.068 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5953,10 +5933,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C114")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C94")
 					(unit 1)
@@ -5988,7 +5964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24b8582d-3084-40fd-96dd-339e2f908fe0")
-		(property "Reference" "R98"
+		(property "Reference" "R34"
 			(at 246.38 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6051,10 +6027,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R98")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R79")
 					(unit 1)
@@ -6086,7 +6058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2744bea2-b1a3-4c89-9abd-a5a291f79551")
-		(property "Reference" "R95"
+		(property "Reference" "R38"
 			(at 195.58 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,10 +6121,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R95")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R83")
 					(unit 1)
@@ -6183,7 +6151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3465d900-9177-45c3-b630-175f75e1a9b2")
-		(property "Reference" "C113"
+		(property "Reference" "C53"
 			(at 86.106 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6244,10 +6212,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C113")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C98")
 					(unit 1)
@@ -6279,7 +6243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43055e90-61c6-4c6d-993a-a1ccd074cc37")
-		(property "Reference" "R90"
+		(property "Reference" "R27"
 			(at 125.73 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6340,10 +6304,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R90")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R72")
 					(unit 1)
@@ -6375,7 +6335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45274bc8-c30a-4060-9848-c4e54f159af0")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR087"
 			(at 162.56 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6435,10 +6395,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0184")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0153")
 					(unit 1)
@@ -6469,7 +6425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4948fa9e-6c29-4d34-846a-927263f81f1b")
-		(property "Reference" "C118"
+		(property "Reference" "C60"
 			(at 158.496 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6530,10 +6486,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C118")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C105")
 					(unit 1)
@@ -6565,7 +6517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50b1946b-29c4-4443-aa23-47b36163096d")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR099"
 			(at 71.12 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -6625,10 +6577,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0177")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0165")
 					(unit 1)
@@ -6660,7 +6608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "559b9fcf-f860-42d7-b23b-dca261be70ee")
-		(property "Reference" "R97"
+		(property "Reference" "R29"
 			(at 214.63 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,10 +6671,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R97")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R74")
 					(unit 1)
@@ -6758,7 +6702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a7232ae-ef3d-4fdc-a0a8-e7d195d2d651")
-		(property "Reference" "R100"
+		(property "Reference" "R35"
 			(at 256.54 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6821,10 +6765,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R100")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R80")
 					(unit 1)
@@ -6856,7 +6796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "610dd54d-3c31-4a47-be1b-993d75ce9acc")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR080"
 			(at 201.93 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6915,10 +6855,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0185")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0146")
 					(unit 1)
@@ -6950,7 +6886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61528c4a-1f16-4c03-b17f-cc4ab5baf5db")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR089"
 			(at 34.29 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7009,10 +6945,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0168")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0155")
 					(unit 1)
@@ -7044,7 +6976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62588bec-2149-4eeb-b455-06dd20326fa7")
-		(property "Reference" "Q24"
+		(property "Reference" "Q8"
 			(at 226.06 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7121,10 +7053,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "Q24")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "Q20")
 					(unit 1)
@@ -7156,7 +7084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6396f2cf-bf48-411e-9305-b1b3612d1d03")
-		(property "Reference" "C111"
+		(property "Reference" "C62"
 			(at 49.53 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,10 +7145,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C111")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C107")
 					(unit 1)
@@ -7252,7 +7176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6890ccc7-849c-4382-b93d-84ca15246a2b")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR082"
 			(at 231.14 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7312,10 +7236,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0186")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0148")
 					(unit 1)
@@ -7346,7 +7266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c09efef-a5e3-4ba3-accb-100d2bc82ee4")
-		(property "Reference" "C122"
+		(property "Reference" "C56"
 			(at 223.266 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7407,10 +7327,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C122")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C101")
 					(unit 1)
@@ -7442,7 +7358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f91b694-eea8-4b65-b985-22ea999df5d9")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR078"
 			(at 96.52 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7501,10 +7417,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0179")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0144")
 					(unit 1)
@@ -7535,7 +7447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7198da8f-e232-4021-82f2-097c71362d60")
-		(property "Reference" "Q23"
+		(property "Reference" "Q7"
 			(at 184.15 72.3901 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7612,10 +7524,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "Q23")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "Q19")
 					(unit 1)
@@ -7647,7 +7555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7772b2e9-8e38-48d1-8a55-c2deca0d538b")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR090"
 			(at 13.97 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7706,10 +7614,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0167")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0156")
 					(unit 1)
@@ -7741,7 +7645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c355a9a-473b-4d1a-bfd7-6fe16c976967")
-		(property "Reference" "C110"
+		(property "Reference" "C59"
 			(at 25.4 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7802,10 +7706,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C110")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C104")
 					(unit 1)
@@ -7837,7 +7737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80fbed05-10e0-46bc-8980-fce33076d237")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR085"
 			(at 261.62 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7897,10 +7797,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0187")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0151")
 					(unit 1)
@@ -7932,7 +7828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "822dda95-551f-4db2-97ac-d38b080cb7c9")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR095"
 			(at 34.29 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -7992,10 +7888,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0170")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0161")
 					(unit 1)
@@ -8027,7 +7919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88377818-09f0-46ea-9ef4-0066c8167a2a")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR093"
 			(at 60.96 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8087,10 +7979,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0174")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0159")
 					(unit 1)
@@ -8122,7 +8010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ca3b6bc-14e8-414e-8046-c04df755d1fc")
-		(property "Reference" "R87"
+		(property "Reference" "R26"
 			(at 73.66 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8183,10 +8071,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R87")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R71")
 					(unit 1)
@@ -8218,7 +8102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d3fa555-07c2-4e3f-ba8e-59549efff7e5")
-		(property "Reference" "Q22"
+		(property "Reference" "Q6"
 			(at 120.65 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8295,10 +8179,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "Q22")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "Q18")
 					(unit 1)
@@ -8330,7 +8210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91d51ef6-5113-4207-822e-c01556786198")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR079"
 			(at 120.65 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8390,10 +8270,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0180")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0145")
 					(unit 1)
@@ -8425,7 +8301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93e4c0da-00ac-4c33-afdd-463914689c67")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR084"
 			(at 156.21 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8485,10 +8361,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0183")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0150")
 					(unit 1)
@@ -8520,7 +8392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "949c57fc-6766-4f7c-b601-92257d0e7738")
-		(property "Reference" "R94"
+		(property "Reference" "R28"
 			(at 179.07 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8581,10 +8453,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R94")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R73")
 					(unit 1)
@@ -8615,7 +8483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9511a5d7-88e0-4865-9e3d-a97eaba5c63b")
-		(property "Reference" "C115"
+		(property "Reference" "C48"
 			(at 102.87 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8676,10 +8544,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C115")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C93")
 					(unit 1)
@@ -8711,7 +8575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b0aead2-2dfa-445a-8bcb-e44eae067dbf")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR091"
 			(at 60.96 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8771,10 +8635,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0172")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0157")
 					(unit 1)
@@ -8806,7 +8666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c887a1f-ec4e-4477-adda-5f89a4cd37d5")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR096"
 			(at 57.15 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8865,10 +8725,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0171")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0162")
 					(unit 1)
@@ -8900,7 +8756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d400b35-ca15-4d1a-ba2a-5a36ed388670")
-		(property "Reference" "C112"
+		(property "Reference" "C58"
 			(at 50.8 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8961,10 +8817,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C112")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C103")
 					(unit 1)
@@ -8996,7 +8848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e88d20e-7b94-4549-8ad6-1c45d41d222d")
-		(property "Reference" "R92"
+		(property "Reference" "R30"
 			(at 143.51 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9057,10 +8909,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R92")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R75")
 					(unit 1)
@@ -9092,7 +8940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0262952-59ce-40b3-8a5c-a4bd53224fb7")
-		(property "Reference" "J9"
+		(property "Reference" "J5"
 			(at 27.94 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9161,10 +9009,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "J9")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "J8")
 					(unit 1)
@@ -9196,7 +9040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1b30ad8-acee-4835-99d7-e0d03b783baa")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR094"
 			(at 60.96 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9256,10 +9100,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0175")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0160")
 					(unit 1)
@@ -9291,7 +9131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a926ee78-d323-4990-a7ca-5c8c75ae9abb")
-		(property "Reference" "R89"
+		(property "Reference" "R37"
 			(at 114.3 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9354,10 +9194,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R89")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R82")
 					(unit 1)
@@ -9389,7 +9225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aff9568a-f998-46a9-bdaf-0f67addd8e97")
-		(property "Reference" "R93"
+		(property "Reference" "R33"
 			(at 151.13 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9452,10 +9288,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R93")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R78")
 					(unit 1)
@@ -9487,7 +9319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1594889-698e-4977-b2a6-501c164cef90")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR083"
 			(at 90.17 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9546,10 +9378,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0178")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0149")
 					(unit 1)
@@ -9581,7 +9409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4f90c26-addf-4f9d-9867-2579df19bd02")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR098"
 			(at 71.12 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9641,10 +9469,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0176")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0164")
 					(unit 1)
@@ -9676,7 +9500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be8da93b-6011-44f4-8cbc-6eccba373788")
-		(property "Reference" "R96"
+		(property "Reference" "R39"
 			(at 219.71 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9739,10 +9563,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R96")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R84")
 					(unit 1)
@@ -9773,7 +9593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfc1a68a-1f60-4a52-87c7-9719969c9dee")
-		(property "Reference" "Q21"
+		(property "Reference" "Q5"
 			(at 78.74 72.3901 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9850,10 +9670,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "Q21")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "Q17")
 					(unit 1)
@@ -9884,7 +9700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c000a603-6686-430d-8310-5f471fa5d88e")
-		(property "Reference" "C119"
+		(property "Reference" "C61"
 			(at 158.496 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9945,10 +9761,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C119")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C106")
 					(unit 1)
@@ -9980,7 +9792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3b18fdd-ac74-4e1c-92ba-a69bacae8c31")
-		(property "Reference" "U11"
+		(property "Reference" "U7"
 			(at 107.95 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10184,10 +9996,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "U11")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "U10")
 					(unit 1)
@@ -10219,7 +10027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb2b86f6-f893-41a4-890e-2a728dde7cfc")
-		(property "Reference" "R99"
+		(property "Reference" "R31"
 			(at 248.92 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10280,10 +10088,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R99")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R76")
 					(unit 1)
@@ -10315,7 +10119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce64c65-3b9b-416c-a6bc-7fe87562f51f")
-		(property "Reference" "R88"
+		(property "Reference" "R36"
 			(at 90.17 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10378,10 +10182,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R88")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R81")
 					(unit 1)
@@ -10413,7 +10213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d073b78f-7fa8-4772-ad56-6372f8d37838")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR086"
 			(at 13.97 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10472,10 +10272,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0166")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0152")
 					(unit 1)
@@ -10506,7 +10302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2d54176-f0e0-436a-9e6e-6c7fef945ab3")
-		(property "Reference" "C121"
+		(property "Reference" "C51"
 			(at 211.836 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10567,10 +10363,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C121")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C96")
 					(unit 1)
@@ -10602,7 +10394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9702b60-3a29-4040-a4a3-993bf3ad17c1")
-		(property "Reference" "R86"
+		(property "Reference" "R40"
 			(at 31.75 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10665,10 +10457,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "R86")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "R85")
 					(unit 1)
@@ -10700,7 +10488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e22fc0c1-b5f2-46f7-b63b-7a159045c6c1")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR097"
 			(at 154.94 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10760,10 +10548,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "#PWR0182")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "#PWR0163")
 					(unit 1)
@@ -10794,7 +10578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e812f8a5-899e-42e3-a7d2-d49618419723")
-		(property "Reference" "C116"
+		(property "Reference" "C50"
 			(at 106.426 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10855,10 +10639,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C116")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C95")
 					(unit 1)
@@ -10889,7 +10669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edccce26-ed50-4012-9dba-8a4f595eacea")
-		(property "Reference" "C120"
+		(property "Reference" "C55"
 			(at 191.516 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10950,10 +10730,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C120")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C100")
 					(unit 1)
@@ -10985,7 +10761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0920aab-afc1-48d7-81fa-bd312db675b1")
-		(property "Reference" "C109"
+		(property "Reference" "C57"
 			(at 22.86 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11046,10 +10822,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C109")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C102")
 					(unit 1)
@@ -11081,7 +10853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0a023a6-9847-44ad-b3ed-6de9eec7b197")
-		(property "Reference" "C108"
+		(property "Reference" "C52"
 			(at 22.86 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11142,10 +10914,6 @@
 		)
 		(instances
 			(project "Stepper_ESC"
-				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/05db208f-82d2-4650-a2cc-8de313598a80"
-					(reference "C108")
-					(unit 1)
-				)
 				(path "/9271e9dc-3850-4149-b59f-a263c29a5edc/6df0a6d1-4185-4709-a4cd-930e9fd8d7cd"
 					(reference "C97")
 					(unit 1)
