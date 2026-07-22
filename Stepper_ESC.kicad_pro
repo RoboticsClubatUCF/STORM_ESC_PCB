@@ -194,7 +194,6 @@
         }
       ],
       "track_widths": [
-        0.0,
         0.0
       ],
       "tuning_pattern_settings": {
@@ -483,7 +482,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Stepper_ESC"
+    ]
   },
   "meta": {
     "filename": "Stepper_ESC.kicad_pro",
@@ -755,7 +756,7 @@
         "uuid": "9271e9dc-3850-4149-b59f-a263c29a5edc"
       }
     ],
-    "used_designators": "J1",
+    "used_designators": "CR1,J1,J3",
     "variants": []
   },
   "sheets": [
